@@ -1,10 +1,10 @@
-module Std_bigstring = Bigstring
+module Bigstring' = Bigstring
 
 open Core
 open Async
 
 module Bytes = Caml.Bytes
-module Bigstring = Std_bigstring
+module Bigstring = Bigstring'
 
 open Nanomsg_utils
 open Nanomsg
